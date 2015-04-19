@@ -122,7 +122,7 @@ case "${host_cpu}" in
   d30v*)
 	machine_dir=d30v
 	;;
-  epiphany-*-elf*)
+  epiphany*)
 	machine_dir=epiphany
 	;;
   fido)
