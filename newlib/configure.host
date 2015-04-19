@@ -388,7 +388,7 @@ case "${host}" in
   d30v*)
 	sys_dir=
 	;;
-  epiphany-*-elf-*)
+  epiphany-*-elf*)
 	sys_dir=epiphany
 	# crt0 is provided by libgloss.
 	have_crt0="no"
