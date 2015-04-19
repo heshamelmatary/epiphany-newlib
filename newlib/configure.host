@@ -608,7 +608,6 @@ case "${host}" in
 	;;
   epiphany-*-*)
 	syscall_dir=syscalls
-	newlib_cflags="${newlib_cflags} -DSIGNAL_PROVIDED"
 	;;
   fido-*-elf)
 	newlib_cflags="${newlib_cflags} -DHAVE_RENAME -DHAVE_SYSTEM -DMISSING_SYSCALL_NAMES"
